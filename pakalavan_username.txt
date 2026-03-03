@@ -1,0 +1,10 @@
+pakalavanastronaut@gmail.com
+Welcome@123
+
+git config --global user.name "Pakalavan"
+git config --global user.email "pakalavanastronaut@gmail.com"
+
+https://github.com
+username: pakalavan27
+password: Pakalavan@12345
+https://github.com/Pakalavan27/pakalavan.git
