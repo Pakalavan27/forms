@@ -1,0 +1,93 @@
+#first {
+  background-color: rgb(14, 152, 198);
+  background-image: url("https://www.oxfordwebstudio.com/en/did-you-know/what-is-css");
+  background-repeat: no-repeat; 
+  background-position:  center; 
+  background-size: cover;
+  background-attachment: fixed; 
+  height: 700px;
+  width: 1200px;
+  color: rgb(255, 0, 0);
+}
+#second {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(pink, yellow);
+  
+}
+#third {
+  height: 300px;
+  width: 300px;
+  background: radial-gradient(rgb(196, 36, 196), rgb(85, 0, 255), rgb(190, 204, 108));
+  background: radial-gradient(violet 5%, yellow 20%, pink 65%);
+  margin-top: 200px;
+  
+}
+
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+
+#fourth {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes example2 {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+/* The element to apply the animation to */
+#five {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  animation-name: example2;
+  animation-duration: 4s;
+  margin-top: 350px;
+}
+
+@keyframes changebgcolor {
+  0% {
+    background-color: rgb(210, 145, 145);
+  }
+  25% {
+    background-color: rgb(238, 0, 255);
+  }
+  50% {
+    background-color: aquamarine;
+  }
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+#animation {
+  height: 500px;
+  width: 500px;
+  animation-duration: 4s;
+  animation-name: changebgcolor;
+  background-color: rgb(56, 129, 11);
+}
